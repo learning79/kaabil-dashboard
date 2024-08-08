@@ -46,7 +46,7 @@ module.exports = (sequelize, Sequelize) => {
           type: Sequelize.TEXT,
           allowNull: false,
         },
-        CourseSubjectName: {
+        courseName: {
           type: Sequelize.TEXT,
           references: {
             model: 'courses', // Name of the model to link to, make sure it matches your table name for courses
